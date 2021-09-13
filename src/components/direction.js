@@ -17,7 +17,7 @@ export default function Direction() {
       if (this.front) return 'Front';
       if (this.back) return 'Back';
       if (this.right) return 'Right';
-      return false;
+      return 'Stop';
     },
   };
 
